@@ -1,7 +1,9 @@
-baseURL = "https://sc-tuning-pro.github.io/"
+baseURL = "https://sc-tuning.pro/"  # Update to your custom domain
 languageCode = "en-us"
 title = "SC Tuning Pro"
 theme = "Mainroad"
+
+publishDir = "public"
 
 [Params]
   description = "Data-driven tuning and telemetry research for Forza Motorsport"
@@ -11,3 +13,9 @@ theme = "Mainroad"
   post_meta = ["date", "categories"]
   highlightjs = true
   highlightjs_languages = ["go", "yaml", "json", "markdown"]
+
+[deployment]
+[[deployment.targets]]
+name = "github"
+URL = "https://sc-tuning-pro.github.io"
+
