@@ -1,0 +1,13 @@
+baseURL = "https://sc-tuning-pro.github.io/"
+languageCode = "en-us"
+title = "SC Tuning Pro"
+theme = "Mainroad"
+
+[Params]
+  description = "Data-driven tuning and telemetry research for Forza Motorsport"
+  author = "SC Tuning Core"
+  readmore = true
+  pager = true
+  post_meta = ["date", "categories"]
+  highlightjs = true
+  highlightjs_languages = ["go", "yaml", "json", "markdown"]
