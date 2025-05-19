@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SC Tuning</title>
+    <link>https://example.docsy.dev/</link>
+    <description>Recent content on SC Tuning</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="https://example.docsy.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Easy documentation with Docsy</title>
+      <link>https://example.docsy.dev/blog/2018/10/06/easy-documentation-with-docsy/</link>
+      <pubDate>Sat, 06 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://example.docsy.dev/blog/2018/10/06/easy-documentation-with-docsy/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;This is a typical blog post that includes images.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;The front matter specifies the date of the blog post, its title, a short description that will be displayed on the blog landing page, and its author.&lt;/p&gt;&#xA;&lt;h2 id=&#34;including-images&#34;&gt;Including images&lt;a class=&#34;td-heading-self-link&#34; href=&#34;#including-images&#34; aria-label=&#34;Heading self-link&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Here&amp;rsquo;s an image (&lt;code&gt;featured-sunset-get.png&lt;/code&gt;) that includes a byline and a caption.&lt;/p&gt;&#xA;&lt;figure class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 610px&#34;&gt;&#xA;&lt;img class=&#34;card-img-top&#34; src=&#34;https://example.docsy.dev/blog/2018/10/06/easy-documentation-with-docsy/featured-sunset-get_hu_ec172e7b7ea555c1.png&#34; width=&#34;600&#34; height=&#34;300&#34;&gt;&#xA;&lt;figcaption class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;&#xA;&lt;p class=&#34;card-text&#34;&gt;&#xA;&#xA;&#xA;Fetch and scale an image in the upcoming Hugo 0.43.&#xA;&lt;small class=&#34;text-body-secondary&#34;&gt;&lt;br/&gt;Photo: Riona MacNamara / CC-BY-CA&lt;/small&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Second blog post</title>
+      <link>https://example.docsy.dev/blog/2018/10/06/second-blog-post/</link>
+      <pubDate>Sat, 06 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://example.docsy.dev/blog/2018/10/06/second-blog-post/</guid>
+      <description>&lt;p&gt;Text can be &lt;strong&gt;bold&lt;/strong&gt;, &lt;em&gt;italic&lt;/em&gt;, or &lt;del&gt;strikethrough&lt;/del&gt;. &lt;a href=&#34;https://github.com&#34;&gt;Links&lt;/a&gt; should be blue with no underlines (unless hovered over).&lt;/p&gt;&#xA;&lt;p&gt;There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.&lt;/p&gt;&#xA;&lt;p&gt;There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;There should be no margin above this first sentence.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Another Great Release</title>
+      <link>https://example.docsy.dev/blog/2018/01/04/another-great-release/</link>
+      <pubDate>Thu, 04 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://example.docsy.dev/blog/2018/01/04/another-great-release/</guid>
+      <description>&lt;p&gt;Text can be &lt;strong&gt;bold&lt;/strong&gt;, &lt;em&gt;italic&lt;/em&gt;, or &lt;del&gt;strikethrough&lt;/del&gt;. &lt;a href=&#34;https://github.com&#34;&gt;Links&lt;/a&gt; should be blue with no underlines (unless hovered over).&lt;/p&gt;&#xA;&lt;p&gt;There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.&lt;/p&gt;&#xA;&lt;p&gt;There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;There should be no margin above this first sentence.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About SC Tuning</title>
+      <link>https://example.docsy.dev/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.docsy.dev/about/</guid>
+      <description>&lt;link rel=&#34;preload&#34; as=&#34;image&#34; href=&#34;https://example.docsy.dev/about/featured-background_hu_7f441bf31ca4d970.jpg&#34; media=&#34;(max-width: 1200px)&#34;&gt;&#xA;&lt;link rel=&#34;preload&#34; as=&#34;image&#34; href=&#34;https://example.docsy.dev/about/featured-background_hu_90eaa3c3586ce28f.jpg&#34; media=&#34;(min-width: 1200px)&#34;&gt;&#xA;&lt;style&gt;&#xA;#td-cover-block-0 {&#xA;  background-image: url(/about/featured-background_hu_7f441bf31ca4d970.jpg);&#xA;}&#xA;@media only screen and (min-width: 1200px) {&#xA;  #td-cover-block-0 {&#xA;    background-image: url(/about/featured-background_hu_90eaa3c3586ce28f.jpg);&#xA;  }&#xA;}&#xA;&lt;/style&gt;&#xA;&lt;section id=&#34;td-cover-block-0&#34; class=&#34;row td-cover-block td-cover-block--height-auto js-td-cover td-overlay td-overlay--dark -bg-dark&#34;&gt;&#xA;  &lt;div class=&#34;col-12&#34;&gt;&#xA;    &lt;div class=&#34;container td-overlay__inner&#34;&gt;&#xA;      &lt;div class=&#34;text-center&#34;&gt;&#xA;        &lt;h1 class=&#34;display-1 mt-0 mt-md-5 pb-4&#34;&gt;About SC Tuning&lt;/h1&gt;&#xA;        &#xA;        &lt;div class=&#34;pt-3 lead&#34;&gt;&#xA;          &#xA;              &#xA;          &#xA;        &lt;/div&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/div&gt;&#xA;  &#xA;&lt;/section&gt;&#xA;&#xA;&lt;div&gt;&lt;a id=&#34;td-block-1&#34; class=&#34;td-offset-anchor&#34;&gt;&lt;/a&gt;&lt;/div&gt;&#xA;&lt;section class=&#34;row td-box td-box--1 position-relative td-box--height-auto&#34;&gt;&#xA;&lt;div class=&#34;col-12&#34;&gt;&#xA;&lt;div class=&#34;container text-center td-arrow-down&#34;&gt;&#xA;&lt;div class=&#34;h4 mb-0&#34;&gt;&#xA;&lt;p&gt;SC Tuning is a comprehensive platform for system performance optimization and tuning. Our platform provides tools and best practices for monitoring, analyzing, and optimizing system performance.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;/section&gt;&#xA;&lt;h2 id=&#34;what-is-sc-tuning&#34;&gt;What is SC Tuning?&lt;a class=&#34;td-heading-self-link&#34; href=&#34;#what-is-sc-tuning&#34; aria-label=&#34;Heading self-link&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;SC Tuning is a powerful platform that helps you:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Search Results</title>
+      <link>https://example.docsy.dev/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.docsy.dev/search/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
