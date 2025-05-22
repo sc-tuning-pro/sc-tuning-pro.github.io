@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Documentation on SC Tuning</title>
+    <title>AI &#43; ML &#43; Live Telemetry Systems on SC Tuning</title>
     <link>https://example.docsy.dev/docs/</link>
-    <description>Recent content in Documentation on SC Tuning</description>
+    <description>Recent content in AI &#43; ML &#43; Live Telemetry Systems on SC Tuning</description>
     <generator>Hugo</generator>
     <language>en</language>
     <atom:link href="https://example.docsy.dev/docs/index.xml" rel="self" type="application/rss+xml" />
