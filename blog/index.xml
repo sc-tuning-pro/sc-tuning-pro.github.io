@@ -7,5 +7,12 @@
     <generator>Hugo</generator>
     <language>en</language>
     <atom:link href="https://example.docsy.dev/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Easy documentation with Docsy</title>
+      <link>https://example.docsy.dev/blog/2018/10/06/easy-documentation-with-docsy/</link>
+      <pubDate>Sat, 06 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://example.docsy.dev/blog/2018/10/06/easy-documentation-with-docsy/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;This is a typical blog post.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;The front matter specifies the date of the blog post, its title, a short description that will be displayed on the blog landing page, and its author.&lt;/p&gt;&#xA;&lt;h2 id=&#34;blog-post-structure&#34;&gt;Blog Post Structure&lt;a class=&#34;td-heading-self-link&#34; href=&#34;#blog-post-structure&#34; aria-label=&#34;Heading self-link&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;A typical blog post includes:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;A title and description&lt;/li&gt;&#xA;&lt;li&gt;Author information&lt;/li&gt;&#xA;&lt;li&gt;Content sections&lt;/li&gt;&#xA;&lt;li&gt;Links and references&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;adding-images&#34;&gt;Adding Images&lt;a class=&#34;td-heading-self-link&#34; href=&#34;#adding-images&#34; aria-label=&#34;Heading self-link&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;To add images to your blog posts, you can use standard Markdown image syntax:&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
