@@ -29,3 +29,9 @@ Thumbs.db
 
 # Hugo lock
 .hugo_build.lock
+
+# Private documentation
+docs/internal/
+
+# Private journal
+.private-journal/
