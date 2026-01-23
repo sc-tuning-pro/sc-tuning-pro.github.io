@@ -1,0 +1,31 @@
+# Hugo build output
+/public/
+/resources/_gen/
+
+# Node
+/node_modules/
+
+# Hugo module cache
+/_vendor/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Backup directories
+/_mainroad_backup/
+/_recovered/
+/_docsy_template/
+
+# Tarball backups
+*.tar.gz
+
+# Obsidian
+.obsidian/
+
+# Hugo lock
+.hugo_build.lock
