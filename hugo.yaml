@@ -99,7 +99,7 @@ params:
   privacy_policy: https://policies.google.com/privacy
 
   # First one is picked as the Twitter card image if not set on page.
-  images: [images/featured-background_hu_326d4d8ceba8bc2c.jpg]
+  images: [featured-background.jpg]
 
   # Menu title if your navbar has a versions selector to access old versions of your site.
   # This menu appears only if you have at least one [params.versions] set.
