@@ -4,55 +4,26 @@ linkTitle: About
 menu: {main: {weight: 40}}
 ---
 
-{{% blocks/cover title="About SC Tuning" image_anchor="bottom" height="auto" image="images/featured-background_hu_8adb3be8c302949b.jpg" %}}
-
+{{% blocks/cover title="About SC Tuning" image_anchor="bottom" height="auto" %}}
 {{% /blocks/cover %}}
 
 {{% blocks/lead %}}
-SC Tuning is a comprehensive platform for system performance optimization and tuning. Our platform provides tools and best practices for monitoring, analyzing, and optimizing system performance.
-
+SC Tuning is a personal project exploring AI, ML, and live telemetry systems
+through the lens of sim racing performance optimization.
 {{% /blocks/lead %}}
 
-## What is SC Tuning?
+## The Project
 
-SC Tuning is a powerful platform that helps you:
+SC Tuning combines two focus areas:
 
-- Monitor system performance metrics in real-time
-- Analyze performance patterns and identify bottlenecks
-- Apply automated tuning recommendations
-- Implement best practices for system optimization
-- Track performance improvements over time
+**AI + ML + Live Telemetry Systems** - Designing real-time pipelines, adaptive agents,
+and ML systems for telemetry processing, time-series analysis, and performance insights.
 
-## Key Features
+**Forza Applied Tuning Lab** - Applying these tools to improve driving and tuning
+in Forza Motorsport, lap by lap.
 
-- **Real-time Monitoring**: Track system metrics and performance indicators
-- **Performance Analysis**: Identify and diagnose performance issues
-- **Automated Tuning**: Apply intelligent optimization algorithms
-- **Best Practices**: Follow industry-standard optimization techniques
-- **Reporting**: Generate detailed performance reports and insights
+## Credits {#credits}
 
-## Getting Started
+Built with [Hugo](https://gohugo.io/) and [Docsy](https://www.docsy.dev/).
 
-To get started with SC Tuning:
-
-1. Download and install the platform
-2. Configure your system for monitoring
-3. Set up performance baselines
-4. Start optimizing your system
-
-For detailed instructions, check out our [documentation](/docs).
-
-{{% blocks/section %}}
-
-<!--# This is another section
-{.text-center}
-
-{{% /blocks/section %}}
-
-{{% blocks/section %}}
-
-# This is another section
-{.text-center}
-
-{{% /blocks/section %}}
--->
+Telemetry data from Forza Motorsport via ForzaJSONTelemetry.

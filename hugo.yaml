@@ -34,7 +34,7 @@ pygmentsStyle: tango
 
 # Configure how URLs look like per section.
 permalinks:
-  blog: /:section/:year/:month/:day/:slug/
+  changelog: /:section/:year/:month/:day/:slug/
 
 # Image processing configuration.
 imaging:
@@ -83,14 +83,18 @@ params:
   # Main menu configuration
   menu:
     main:
+      - name: Status
+        url: /service-health/
+        weight: 5
+        pre: '<i class="fa-solid fa-circle text-success"></i> '
       - name: AI + ML + Telemetry
         url: /ai-ml-telemetry/
         weight: 10
       - name: Applied Tuning Lab
         url: /applied-tuning-lab/
         weight: 20
-      - name: Blog
-        url: /blog/
+      - name: CHANGELOG
+        url: /changelog/
         weight: 30
       - name: About
         url: /about/

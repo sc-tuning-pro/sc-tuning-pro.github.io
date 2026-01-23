@@ -56,15 +56,15 @@ Bridge the gap between data and decisions. Our tools help translate telemetry in
 {{< /blocks/section >}}
 
 {{< blocks/section >}}
-{{% blocks/feature icon="fab fa-github" title="Documentation" url="https://github.com/google/docsy" %}}
+{{% blocks/feature icon="fa-solid fa-book" title="Documentation" url="/docs/" %}}
 Learn how SC Tuning works, how to interpret telemetry, and how to optimize your builds.
 {{% /blocks/feature %}}
 
-{{% blocks/feature icon="fab fa-slack" title="Origin Story" url="https://docsy.dev/slack" %}}
+{{% blocks/feature icon="fa-solid fa-book-open" title="Origin Story" url="/about/" %}}
 SC Tuning was born from the pursuit of precision and performance.
 {{% /blocks/feature %}}
 
-{{% blocks/feature icon="fas fa-envelope" title="Credits" url="https://example.org/mail" %}}
+{{% blocks/feature icon="fa-solid fa-heart" title="Credits" url="/about/#credits" %}}
 This project stands on the shoulders of open-source builders and data enthusiasts.
 {{% /blocks/feature %}}
 {{< /blocks/section >}}
