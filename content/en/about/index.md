@@ -12,6 +12,14 @@ SC Tuning is a personal project exploring AI, ML, and live telemetry systems
 through the lens of sim racing performance optimization.
 {{% /blocks/lead %}}
 
+## How It Started
+
+After years of racing in Forza, I stumbled across a "Data Out" option buried in the settings. Looked it up - telemetry you could send to a server and analyze? I was immediately floored.
+
+I spent the next two weeks straight coding instead of racing, figuring out how to capture and leverage this data. Nine months later, I'm still hooked.
+
+---
+
 ## The Problem
 
 Forza Motorsport 7 outputs telemetry data at 60Hz - 85 data points every 16 milliseconds. Speed, tire temps, suspension travel, throttle position, G-forces. Everything you need to understand why you're fast (or slow).
