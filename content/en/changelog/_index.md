@@ -1,6 +1,7 @@
 ---
-title: CHANGELOG
-menu: {main: {weight: 30}}
+title: Changelog
+linkTitle: Changelog
+menu: {main: {weight: 20}}
 ---
 
 Running log of all SC Tuning updates, releases, and changes.
