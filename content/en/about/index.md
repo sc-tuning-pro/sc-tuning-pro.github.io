@@ -80,6 +80,4 @@ in Forza Motorsport, lap by lap.
 
 ## Credits
 
-Built with [Hugo](https://gohugo.io/) and [Docsy](https://www.docsy.dev/).
-
 Telemetry data from Forza Motorsport via UDP telemetry output.

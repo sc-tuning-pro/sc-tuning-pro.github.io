@@ -19,7 +19,15 @@
 
 ## ROADMAP
 
-(Future items)
+- [ ] [R-001] Tuning Knowledge Base Section #content #seo
+  - Spec: `docs/internal/specs/S-001-tuning-knowledge-base.md`
+  - Origin: I-002
+  - Added: 2026-01-29
+
+- [ ] [R-002] Interactive Telemetry Dashboard Demo #feature #marketing
+  - Spec: `docs/internal/specs/S-002-telemetry-dashboard-demo.md`
+  - Origin: I-001
+  - Added: 2026-01-29
 
 ## DONE
 

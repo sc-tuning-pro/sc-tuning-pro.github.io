@@ -8,22 +8,47 @@ description: >
   Designing and building real-time data pipelines, intelligent agents, and applied ML infrastructure for streaming telemetry, time-series analytics, and system performance insights.
 ---
 
-Welcome to the **AI + ML + Telemetry Systems** section of SC Tuning.
+This section documents the technical infrastructure behind SC Tuning: real-time telemetry pipelines, data processing, and the ML systems being developed for performance analysis.
 
-This section focuses on the technical infrastructure and machine learning systems that power our telemetry analysis and performance optimization platform.
+## Current State
 
-## What You'll Find Here
+The core pipeline is operational:
 
-- Real-time data pipeline architecture
-- Machine learning model development
-- Telemetry processing and analysis
-- System performance monitoring
-- Time-series data management
+```
+FM7 Game (UDP 7777)
+    ↓
+Telemetry Receiver (VPS)
+    ↓ rsync
+Local Session Storage
+    ↓
+Metrics API (REST/SSE)
+    ↓
+WebUI Dashboard
+```
 
-## Getting Started
+**Working now:**
+- 85 telemetry fields decoded at 60Hz
+- 9 production metrics implemented
+- REST API with pagination + SSE streaming
+- Session management and replay
 
-Explore our documentation to learn about:
-- Setting up telemetry collection
-- Processing and analyzing data
-- Building and deploying ML models
-- Monitoring system performance 
+**In development:**
+- Rule-based diagnostic engine
+- Track identification system
+- Statistical pattern analysis
+
+**Planned:**
+- ML models for lap time prediction
+- Anomaly detection for setup issues
+- Adaptive tuning agents
+
+---
+
+## Documentation Roadmap
+
+| Topic | Status |
+|-------|--------|
+| [System Architecture](architecture/) | Available |
+| Telemetry Field Reference | Coming soon |
+| Metrics API Guide | Coming soon |
+| ML Model Documentation | Planned | 
