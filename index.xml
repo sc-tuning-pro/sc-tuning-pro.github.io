@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SC Tuning</title><link>https://sc-tuning.pro/</link><description>Recent content on SC Tuning</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 23 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://sc-tuning.pro/index.xml" rel="self" type="application/rss+xml"/><item><title>v0.1.0-alpha: Pipeline Operational</title><link>https://sc-tuning.pro/changelog/2026/01/23/v0.1.0-alpha-pipeline-operational/</link><pubDate>Fri, 23 Jan 2026 00:00:00 +0000</pubDate><guid>https://sc-tuning.pro/changelog/2026/01/23/v0.1.0-alpha-pipeline-operational/</guid><description>&lt;h2 id="highlights"&gt;Highlights&lt;a class="td-heading-self-link" href="#highlights" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The core telemetry pipeline is now operational end-to-end:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;FM7 Game → UDP Capture → Session Storage → Metrics API → WebUI Dashboard&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="whats-working"&gt;What&amp;rsquo;s Working&lt;a class="td-heading-self-link" href="#whats-working" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id="telemetry-receiver"&gt;Telemetry Receiver&lt;a class="td-heading-self-link" href="#telemetry-receiver" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;UDP packet capture from Forza Motorsport 7 (port 7777)&lt;/li&gt;
+&lt;li&gt;Automatic session detection and raw.bin writing&lt;/li&gt;
+&lt;li&gt;Session fingerprinting and validation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="metrics-api"&gt;Metrics API&lt;a class="td-heading-self-link" href="#metrics-api" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Full 311-byte FM7 packet parsing (85 fields)&lt;/li&gt;
+&lt;li&gt;9 production metrics implemented&lt;/li&gt;
+&lt;li&gt;REST endpoints with pagination&lt;/li&gt;
+&lt;li&gt;SSE streaming for real-time data&lt;/li&gt;
+&lt;li&gt;806 car specifications in lookup database&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="webui-dashboard"&gt;WebUI Dashboard&lt;a class="td-heading-self-link" href="#webui-dashboard" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Core Telemetry page with raw field display&lt;/li&gt;
+&lt;li&gt;Live Sessions listing&lt;/li&gt;
+&lt;li&gt;Session selector and navigation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="known-limitations"&gt;Known Limitations&lt;a class="td-heading-self-link" href="#known-limitations" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Some dashboard pages have placeholder content&lt;/li&gt;
+&lt;li&gt;Track identity curation UI incomplete&lt;/li&gt;
+&lt;li&gt;4 fields awaiting wet-track validation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="stats"&gt;Stats&lt;a class="td-heading-self-link" href="#stats" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Metric&lt;/th&gt;
+ &lt;th&gt;Value&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Telemetry fields decoded&lt;/td&gt;
+ &lt;td&gt;85&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Production metrics&lt;/td&gt;
+ &lt;td&gt;9&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Car specs in database&lt;/td&gt;
+ &lt;td&gt;806&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Test sessions recorded&lt;/td&gt;
+ &lt;td&gt;13+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id="next-up"&gt;Next Up&lt;a class="td-heading-self-link" href="#next-up" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Complete dashboard visualizations&lt;/li&gt;
+&lt;li&gt;Track identity matching UI&lt;/li&gt;
+&lt;li&gt;Knowledge extraction from tuning guides&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>About SC Tuning</title><link>https://sc-tuning.pro/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://sc-tuning.pro/about/</guid><description>&lt;link rel="preload" as="image" href="https://sc-tuning.pro/about/featured-background_hu_d0a83f2fc0a94e9d.jpg" media="(max-width: 1200px)"&gt;
+&lt;link rel="preload" as="image" href="https://sc-tuning.pro/about/featured-background_hu_8f92f192aec703d7.jpg" media="(min-width: 1200px)"&gt;
+&lt;style&gt;
+#td-cover-block-0 {
+ background-image: url(/about/featured-background_hu_d0a83f2fc0a94e9d.jpg);
+}
+@media only screen and (min-width: 1200px) {
+ #td-cover-block-0 {
+ background-image: url(/about/featured-background_hu_8f92f192aec703d7.jpg);
+ }
+}
+&lt;/style&gt;
+&lt;section id="td-cover-block-0" class="row td-cover-block td-cover-block--height-auto js-td-cover td-overlay td-overlay--dark -bg-dark"&gt;
+ &lt;div class="col-12"&gt;
+ &lt;div class="container td-overlay__inner"&gt;
+ &lt;div class="text-center"&gt;
+ &lt;h1 class="display-1 mt-0 mt-md-5 pb-4"&gt;About SC Tuning&lt;/h1&gt;
+ 
+ &lt;div class="pt-3 lead"&gt;
+ 
+ 
+ 
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ 
+&lt;/section&gt;
+
+&lt;div&gt;&lt;a id="td-block-1" class="td-offset-anchor"&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;section class="row td-box td-box--1 position-relative td-box--height-auto"&gt;
+&lt;div class="col-12"&gt;
+&lt;div class="container text-center td-arrow-down"&gt;
+&lt;div class="h4 mb-0"&gt;
+&lt;p&gt;SC Tuning is a personal project exploring AI, ML, and live telemetry systems
+through the lens of sim racing performance optimization.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;h2 id="how-it-started"&gt;How It Started&lt;a class="td-heading-self-link" href="#how-it-started" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;After years of racing in Forza, I stumbled across a &amp;ldquo;Data Out&amp;rdquo; option buried in the settings. Looked it up - telemetry you could send to a server and analyze? I was immediately floored.&lt;/p&gt;</description></item><item><title>Search Results</title><link>https://sc-tuning.pro/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://sc-tuning.pro/search/</guid><description/></item></channel></rss>
