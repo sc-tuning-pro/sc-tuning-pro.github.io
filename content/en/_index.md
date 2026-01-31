@@ -2,66 +2,69 @@
 title: SC Tuning
 ---
 
-{{< blocks/cover title="SC Tuning" image_anchor="top" height="full" color="dark" >}}
+{{< blocks/cover title="SC Tuning: Performance Optimization Platform" image_anchor="top" height="full" color="dark" image="images/featured-background_hu_326d4d8ceba8bc2c.jpg" >}}
 <div class="mx-auto">
-	<a class="btn btn-lg btn-primary mr-3 mb-4" href="{{< relref "/docs" >}}">
-		Documentation
+	<a class="btn btn-lg btn-primary mr-3 mb-4" href="{{< relref "/ai-ml-telemetry" >}}">
+		AI + ML + Live Telemetry Systems
 	</a>
-	<a class="btn btn-lg btn-secondary mr-3 mb-4" href="{{< relref "/changelog" >}}">
-		Changelog
+	<a class="btn btn-lg btn-secondary mr-3 mb-4" href="{{< relref "/applied-tuning-lab" >}}">
+		Forza Applied Tuning Lab
 	</a>
 	<p class="lead mt-5">
-		Realtime telemetry capture and analysis for Forza Motorsport 7.<br>
-		Turning raw data into tuning insights.
+		<strong><b>AI + ML + Live Telemetry Systems</b></strong><br>
+		Designing real-time pipelines, adaptive agents, and ML systems<br>
+		for telemetry, time-series data, and intelligent performance insights.<br><br>
+		<strong><b>Forza Applied Tuning Lab</strong></b><br>
+		My personal journey through driving, tuning, learning, and<br>
+		applying the tools I'm building to improve performance lap by lap.<br><br>
 	</p>
+	<div class="mx-auto">
+		<a class="btn btn-link text-info" href="#td-block-1" aria-label="Read more">
+			<i class="fa-solid fa-circle-chevron-down" style="font-size: 400%"></i>
+		</a>
+	</div>
 </div>
 {{< /blocks/cover >}}
 
 {{% blocks/lead color="primary" %}}
-SC Tuning captures telemetry from Forza Motorsport 7 at 60Hz, processes it through a metrics pipeline, and visualizes the results. The goal: close the loop between driving, data, and tuning decisions.
+SC Tuning provides a unified platform for advanced telemetry analysis and performance tuning in Forza Motorsport. Our tools deliver insights that help you optimize vehicle builds, improve lap times, and evolve your driving strategy.
 {{% /blocks/lead %}}
 
 {{< blocks/section color="dark" >}}
-{{% blocks/feature icon="fa-gauge-high" title="Realtime Capture" %}}
-85 telemetry fields decoded every 16 milliseconds. Speed, tire temps, suspension, inputs, and more.
+{{% blocks/feature icon="fa-lightbulb" title="Advanced Telemetry & Analytics" %}}
+Gain deep insight into your car's behavior with real-time and post-session telemetry. Track dozens of performance metrics with accuracy and clarity.
 {{% /blocks/feature %}}
 
-{{% blocks/feature icon="fa-chart-line" title="Metrics Pipeline" %}}
-9 production metrics. REST API with pagination. SSE streaming for live data.
+{{% blocks/feature icon="fa-chart-line" title="Monitoring & Analytics" %}}
+Monitor system metrics in real-time and analyze performance patterns to identify bottlenecks.
 {{% /blocks/feature %}}
 
-{{% blocks/feature icon="fa-cogs" title="Analysis Tools" %}}
-Session replay, lap comparison, and diagnostic rules to surface what matters.
+{{% blocks/feature icon="fa-cogs" title="Tune Optimization" %}}
+Leverage structured analysis to refine your car setups. We help you identify what to change — and why — for maximum agility, grip, and speed.
+{{% /blocks/feature %}}
+
+{{% blocks/feature icon="fa-gauge-high" title="Driver Feedback" %}}
+Bridge the gap between data and decisions. Our tools help translate telemetry into actionable advice tailored to your driving style and goals.
 {{% /blocks/feature %}}
 {{< /blocks/section >}}
 
 {{< blocks/section >}}
-<div class="col-12">
-<h2 class="text-center mb-4">How It Started</h2>
-<p class="text-center col-lg-8 mx-auto">
-After years of racing in Forza, I found the "Data Out" option buried in the settings. Telemetry I could capture and analyze? I spent the next two weeks coding instead of racing. Nine months later, I'm still hooked.
-</p>
-<p class="text-center col-lg-8 mx-auto">
-SC Tuning is my exploration of what happens when you apply realtime systems engineering to sim racing. The data is rich, the feedback loop is immediate, and the lessons apply far beyond racing games.
-</p>
+<div class="col">
+<h1 class="text-center"></h1>
+<p class="text-center"></p>
 </div>
 {{< /blocks/section >}}
 
-{{< blocks/section color="dark" >}}
-<div class="col-12">
-<h2 class="text-center mb-4">Current Status</h2>
-<div class="col-lg-8 mx-auto">
+{{< blocks/section >}}
+{{% blocks/feature icon="fa-solid fa-book" title="Documentation" url="/docs/" %}}
+Learn how SC Tuning works, how to interpret telemetry, and how to optimize your builds.
+{{% /blocks/feature %}}
 
-| Component | Status |
-|-----------|--------|
-| Telemetry Receiver | Operational |
-| Metrics API | Operational |
-| Dashboard | In Development |
+{{% blocks/feature icon="fa-solid fa-book-open" title="Origin Story" url="/about/" %}}
+SC Tuning was born from the pursuit of precision and performance.
+{{% /blocks/feature %}}
 
-**Version:** 0.5.0 alpha (Epic 5 in progress)
-
-**Last verified:** 2026-01-29
-
-</div>
-</div>
+{{% blocks/feature icon="fa-solid fa-heart" title="Credits" url="/about/#credits" %}}
+This project stands on the shoulders of open-source builders and data enthusiasts.
+{{% /blocks/feature %}}
 {{< /blocks/section >}}
